@@ -1,0 +1,18 @@
+<resources>
+    <!-- Main !-->
+    <string name="description">Descripción contacto</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="birth_date">Fecha de nacimiento</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="continue_button">Continuar</string>
+    <string name="app_name">Agenda</string>
+
+    <!-- Confirm !-->
+    <string name="confirm_details_title">Confirmar Datos</string>
+    <string name="birthdate_text">Fecha Nacimiento:</string>
+    <string name="phone_number_text">Tel.</string>
+    <string name="email_text">Email:</string>
+    <string name="description_text">Descripción:</string>
+    <string name="edit_details">Editar Datos</string>
+</resources>

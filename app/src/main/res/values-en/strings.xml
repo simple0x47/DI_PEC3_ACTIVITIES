@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main !-->
+    <string name="description">Contact\'s description</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="birth_date">Birth date</string>
+    <string name="full_name">Full name</string>
+    <string name="continue_button">Continue</string>
+    <string name="app_name">Agenda</string>
+
+    <!-- Confirm !-->
+    <string name="confirm_details_title">Confirm Details</string>
+    <string name="birthdate_text">Birth date:</string>
+    <string name="phone_number_text">Phone: </string>
+    <string name="email_text">Email:</string>
+    <string name="description_text">Description:</string>
+    <string name="edit_details">Edit</string>
+</resources>

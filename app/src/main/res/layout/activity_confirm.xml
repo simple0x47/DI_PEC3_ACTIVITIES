@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+        <TextView
+                android:text="@string/confirm_details_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:gravity="center"
+                android:layout_marginBottom="25dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/fullNameText" android:text="Lorem Ipus"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:layout_marginBottom="10dp"/>
+        <TextView
+                android:text="@string/birthdate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/birthDateText" android:layout_marginBottom="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="@string/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/phoneNumberText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:layout_marginBottom="10dp"/>
+        <TextView
+                android:text="@string/email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/emailText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:layout_marginBottom="10dp"/>
+        <TextView
+                android:text="@string/description_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/descriptionText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:layout_marginBottom="10dp"/>
+        <Button
+                android:text="@string/edit_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/editDetails" android:layout_marginTop="50dp"
+                android:layout_marginStart="60dp" android:layout_marginEnd="60dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
